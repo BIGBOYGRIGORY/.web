@@ -1,0 +1,275 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+.list {
+	padding-top: 42px;
+	background-color: #fff;
+	padding-bottom: 196px;
+}
+
+.list-wrapper {
+	display: block;
+	margin: 0 auto;
+	background-image: url(../img/Banner.svg);
+	height: 100%;
+	width: 600px;
+	background-position: top;
+	background-repeat: no-repeat;
+	padding-top: 17px;
+	text-align: center;
+	box-shadow: 0px 2px 24px rgba(138, 128, 106, 0.2);
+	border-radius: 3px;
+}
+
+.list-logotip {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.list-wrapper h1 {
+	font-family: "Circe";
+	font-size: 6vh;
+	line-height: 6vh;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 55%;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+@media (max-width: 1000px) {
+	.list-wrapper h1 {
+		font-size: 3vh;
+		line-height: 3vh;
+		margin-top: 40px;
+	}
+}
+@media (max-width: 376px) {
+	.list-wrapper h1 {
+		font-size: 2vh;
+		line-height: 2vh;
+		margin-top: 35px;
+	}
+}
+
+.logo {
+	margin-left: 36px;
+}
+
+.watermelon-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 35px;
+}
+@media (max-width: 376px) {
+	.watermelon-list {
+		margin-top: 3px;
+	}
+}
+
+.watermelon-wrapper {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.watermelon-wrapper span {
+	font-family: "Circe";
+	font-size: 40px;
+	line-height: 47px;
+	letter-spacing: 0px;
+	text-align: center;
+	font-weight: 800;
+}
+.watermelon-wrapper p {
+	padding: 0;
+	margin: 0;
+	font-family: "Arial";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.btn-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.btn-list p {
+	font-family: "Arial";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	text-align: left;
+}
+
+.btn-list span {
+	font-family: "Arial";
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px;
+	letter-spacing: 0px;
+	text-align: center;
+	padding: 12px 20px;
+	border: 1px dashed #000;
+}
+
+.btn {
+	font-family: "Arial";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: left;
+	padding: 22px 50px;
+	background-color: #2abe80;
+	border-radius: 50px;
+	margin-top: 20px;
+	color: #fff;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 210px auto 0 7px;
+}
+
+@media (max-width: 1000px) {
+	.text {
+		margin-top: 262px;
+	}
+}
+
+.text h2 {
+	font-size: 14px;
+	margin-bottom: 35px;
+}
+
+.text p {
+	font-family: "Arial";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	width: 100%;
+}
+
+.text a {
+	text-decoration: underline;
+}
+
+.cart-list {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 27px;
+}
+
+.list-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.list-item img {
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+@media (max-width: 374px) {
+	.list-item img {
+		margin-top: 10px;
+	}
+}
+
+.list-item a {
+	text-decoration: underline;
+}
+
+.cart-list p {
+	margin-top: 70px;
+	font-family: "HelveticaNeueCyr";
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0px;
+	text-align: center;
+	color: #c4c4c4;
+	margin-bottom: 44px;
+}
+
+.wrapper-inner {
+	margin: 0 auto;
+	padding: 0 23px;
+}
+
+.row {
+	margin-top: 40px;
+}
+
+.phone {
+	margin-left: 45px;
+	color: #2abe80;
+	font-size: 20px;
+}
+.social {
+	display: inline-flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.social li {
+	margin-right: 13px;
+}
+
+.social i {
+	color: #2abe80;
+	font-size: 25px;
+}
+
+.wrapper-inner p {
+	font-family: "Arial", "Helvetica", sans-serif;
+	color: #a3a3a3;
+	font-size: 14px;
+	line-height: 15px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.world {
+	display: flex;
+	justify-content: center;
+}
+
+.world a {
+	margin-right: 55px;
+	color: #a3a3a3;
+}
+
+@media (max-width: 420px) {
+	.world a {
+		margin-right: 7px;
+	}
+}
